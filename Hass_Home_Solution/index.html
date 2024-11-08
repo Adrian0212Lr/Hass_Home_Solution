@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hass Home Solution - Hass Solution</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hass Home Solution</h1>
+        <p>Instalación profesional de ventanas</p>
+        <nav>
+            <ul>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección de Introducción -->
+        <section id="introduccion">
+            <h2>Bienvenido a la Página de Prueba</h2>
+            <p>Esta es una página de prueba para <strong>Hass Home Solution</strong>, una empresa dedicada a la instalación profesional de ventanas. Estamos trabajando en el desarrollo de nuestro sitio web, ¡pronto tendrás más información!</p>
+            <p>Por ahora, explora algunas de nuestras funcionalidades y diseño de prueba.</p>
+        </section>
+
+        <!-- Sección de Servicios -->
+        <section id="servicios">
+            <h2>Servicios que ofrecemos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Servicio</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Instalación de ventanas</td>
+                        <td>Instalación profesional de ventanas de PVC y aluminio.</td>
+                        <td>$100 - $500</td>
+                    </tr>
+                    <tr>
+                        <td>Asesoría personalizada</td>
+                        <td>Te ayudamos a elegir las ventanas adecuadas para tu hogar.</td>
+                        <td>Gratis</td>
+                    </tr>
+                    <tr>
+                        <td>Reparación de ventanas</td>
+                        <td>Reemplazo y reparación de ventanas dañadas o defectuosas.</td>
+                        <td>$50 - $200</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Sección de Galería -->
+        <section id="galeria">
+            <h2>Galería de Proyectos</h2>
+            <div class="gallery">
+                <div class="image-item">
+                    <img src="VM.jpeg" alt="Ventana moderna" />
+                    <p>Instalación de ventana moderna.</p>
+                </div>
+                <div class="image-item">
+                    <img src="VP.jpeg" alt="Ventana de PVC" />
+                    <p>Ventana de PVC de alta eficiencia energética.</p>
+                </div>
+                <div class="image-item">
+                    <img src="VPA.jpeg" alt="Ventanas panorámicas" />
+                    <p>Ventanas panorámicas en una casa de lujo.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Formulario de Contacto -->
+        <section id="contacto">
+            <h2>Formulario de Contacto</h2>
+            <p>Déjanos tus datos y te contactaremos para ofrecerte más información sobre nuestros servicios.</p>
+            <form action="submit_form.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <!-- Animación de prueba -->
+        <section id="animacion">
+            <h2>Animación de prueba</h2>
+            <div class="animacion-box">¡Bienvenido a Hass Home Solution!</div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hass Home Solution. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
